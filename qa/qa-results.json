@@ -1,0 +1,728 @@
+{
+ "base": "http://127.0.0.1:8771/",
+ "date": "2026-11-06T21:42:13.259Z",
+ "ok": 120,
+ "total": 120,
+ "results": [
+  {
+   "group": "360px",
+   "name": "Envelope scene visible on load",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Content inert before opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Envelope opens and is removed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Content interactive after opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Focus moved to names heading",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Names writing animation runs",
+   "ok": true,
+   "detail": "write, sheen"
+  },
+  {
+   "group": "360px",
+   "name": "Couple names fully inside the viewport (not clipped)",
+   "ok": true,
+   "detail": "[[102,258],[171,189],[126,234]]"
+  },
+  {
+   "group": "360px",
+   "name": "Wedding song starts with the opening tap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "INFINITI signature texts exact",
+   "ok": true,
+   "detail": "INFINITI TECHNOLOGIES | المهندس / هشام عوده «أبو عمر»"
+  },
+  {
+   "group": "360px",
+   "name": "Congratulations section is the last section, after the finale, not overlapping",
+   "ok": true,
+   "detail": "congrats"
+  },
+  {
+   "group": "360px",
+   "name": "Congratulations section within the viewport width and fully revealed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Congratulations section keeps the site background (no dark/new background)",
+   "ok": true,
+   "detail": "rgba(0, 0, 0, 0)"
+  },
+  {
+   "group": "360px",
+   "name": "No horizontal scrolling",
+   "ok": true,
+   "detail": "scrollWidth 360 / viewport 360"
+  },
+  {
+   "group": "360px",
+   "name": "No console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "All assets loaded (no 4xx/5xx)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "360px",
+   "name": "Touch targets ≥ 44×44 px",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Envelope scene visible on load",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Content inert before opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Envelope opens and is removed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Content interactive after opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Focus moved to names heading",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Names writing animation runs",
+   "ok": true,
+   "detail": "write, sheen"
+  },
+  {
+   "group": "390px",
+   "name": "Couple names fully inside the viewport (not clipped)",
+   "ok": true,
+   "detail": "[[111,279],[186,204],[136,254]]"
+  },
+  {
+   "group": "390px",
+   "name": "Wedding song starts with the opening tap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "INFINITI signature texts exact",
+   "ok": true,
+   "detail": "INFINITI TECHNOLOGIES | المهندس / هشام عوده «أبو عمر»"
+  },
+  {
+   "group": "390px",
+   "name": "Congratulations section is the last section, after the finale, not overlapping",
+   "ok": true,
+   "detail": "congrats"
+  },
+  {
+   "group": "390px",
+   "name": "Congratulations section within the viewport width and fully revealed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "Congratulations section keeps the site background (no dark/new background)",
+   "ok": true,
+   "detail": "rgba(0, 0, 0, 0)"
+  },
+  {
+   "group": "390px",
+   "name": "No horizontal scrolling",
+   "ok": true,
+   "detail": "scrollWidth 390 / viewport 390"
+  },
+  {
+   "group": "390px",
+   "name": "No console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "390px",
+   "name": "All assets loaded (no 4xx/5xx)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Performance",
+   "name": "First load before opening (the song streams only after the tap)",
+   "ok": true,
+   "detail": "416 KB"
+  },
+  {
+   "group": "390px",
+   "name": "Touch targets ≥ 44×44 px",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Envelope scene visible on load",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Content inert before opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Envelope opens and is removed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Content interactive after opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Focus moved to names heading",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Names writing animation runs",
+   "ok": true,
+   "detail": "write, sheen"
+  },
+  {
+   "group": "430px",
+   "name": "Couple names fully inside the viewport (not clipped)",
+   "ok": true,
+   "detail": "[[122,308],[205,225],[150,280]]"
+  },
+  {
+   "group": "430px",
+   "name": "Wedding song starts with the opening tap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "INFINITI signature texts exact",
+   "ok": true,
+   "detail": "INFINITI TECHNOLOGIES | المهندس / هشام عوده «أبو عمر»"
+  },
+  {
+   "group": "430px",
+   "name": "Congratulations section is the last section, after the finale, not overlapping",
+   "ok": true,
+   "detail": "congrats"
+  },
+  {
+   "group": "430px",
+   "name": "Congratulations section within the viewport width and fully revealed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Congratulations section keeps the site background (no dark/new background)",
+   "ok": true,
+   "detail": "rgba(0, 0, 0, 0)"
+  },
+  {
+   "group": "430px",
+   "name": "No horizontal scrolling",
+   "ok": true,
+   "detail": "scrollWidth 430 / viewport 430"
+  },
+  {
+   "group": "430px",
+   "name": "No console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "All assets loaded (no 4xx/5xx)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "430px",
+   "name": "Touch targets ≥ 44×44 px",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Envelope scene visible on load",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Content inert before opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Envelope opens and is removed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Content interactive after opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Focus moved to names heading",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Names writing animation runs",
+   "ok": true,
+   "detail": "write, sheen"
+  },
+  {
+   "group": "768px",
+   "name": "Couple names fully inside the viewport (not clipped)",
+   "ok": true,
+   "detail": "[[375,557],[342,371],[211,337]]"
+  },
+  {
+   "group": "768px",
+   "name": "Wedding song starts with the opening tap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "INFINITI signature texts exact",
+   "ok": true,
+   "detail": "INFINITI TECHNOLOGIES | المهندس / هشام عوده «أبو عمر»"
+  },
+  {
+   "group": "768px",
+   "name": "Congratulations section is the last section, after the finale, not overlapping",
+   "ok": true,
+   "detail": "congrats"
+  },
+  {
+   "group": "768px",
+   "name": "Congratulations section within the viewport width and fully revealed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Congratulations section keeps the site background (no dark/new background)",
+   "ok": true,
+   "detail": "rgba(0, 0, 0, 0)"
+  },
+  {
+   "group": "768px",
+   "name": "No horizontal scrolling",
+   "ok": true,
+   "detail": "scrollWidth 768 / viewport 768"
+  },
+  {
+   "group": "768px",
+   "name": "No console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "All assets loaded (no 4xx/5xx)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "768px",
+   "name": "Touch targets ≥ 44×44 px",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Envelope scene visible on load",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Content inert before opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Envelope opens and is removed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Content interactive after opening",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Focus moved to names heading",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Names writing animation runs",
+   "ok": true,
+   "detail": "write, sheen"
+  },
+  {
+   "group": "1440px",
+   "name": "Couple names fully inside the viewport (not clipped)",
+   "ok": true,
+   "detail": "[[693,994],[660,688],[446,655]]"
+  },
+  {
+   "group": "1440px",
+   "name": "Wedding song starts with the opening tap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "INFINITI signature texts exact",
+   "ok": true,
+   "detail": "INFINITI TECHNOLOGIES | المهندس / هشام عوده «أبو عمر»"
+  },
+  {
+   "group": "1440px",
+   "name": "Congratulations section is the last section, after the finale, not overlapping",
+   "ok": true,
+   "detail": "congrats"
+  },
+  {
+   "group": "1440px",
+   "name": "Congratulations section within the viewport width and fully revealed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Congratulations section keeps the site background (no dark/new background)",
+   "ok": true,
+   "detail": "rgba(0, 0, 0, 0)"
+  },
+  {
+   "group": "1440px",
+   "name": "No horizontal scrolling",
+   "ok": true,
+   "detail": "scrollWidth 1440 / viewport 1440"
+  },
+  {
+   "group": "1440px",
+   "name": "No console errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "All assets loaded (no 4xx/5xx)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "1440px",
+   "name": "Touch targets ≥ 44×44 px",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Content",
+   "name": "Every approved Arabic text is present verbatim",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Content",
+   "name": "Parents’ names and kunyas exact",
+   "ok": true,
+   "detail": "محمد حسن عكيلة «أبو درويش» / خضر حيدر حرزالله «أبو أسعد»"
+  },
+  {
+   "group": "Content",
+   "name": "No unconfirmed time of day anywhere in the page",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Content",
+   "name": "No gifts / payments / bank / wallet / QR anywhere",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Content",
+   "name": "All bound texts equal config.js",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "Date",
+   "name": "No ceremony time set: nothing computes or shows a start time",
+   "ok": true,
+   "detail": "undefined"
+  },
+  {
+   "group": "Date",
+   "name": "Day of the week of 2026-11-20 is الجمعة",
+   "ok": true,
+   "detail": "الجمعة"
+  },
+  {
+   "group": "Date",
+   "name": "Numeric date isolated LTR (cannot flip to 2026-11-20)",
+   "ok": true,
+   "detail": "ltr 20-11-2026"
+  },
+  {
+   "group": "Countdown",
+   "name": "No ceremony time yet: countdown hidden (no empty block)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Timeline",
+   "name": "No programme yet: section and its dock button hidden, the other dock buttons evenly spread",
+   "ok": true,
+   "detail": "{\"s\":true,\"nav\":true,\"items\":[68,68,68,68,68]}"
+  },
+  {
+   "group": "Venue",
+   "name": "No approved map location yet: the map button is hidden",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Calendar",
+   "name": "No ceremony time yet: no save-the-date button, no time line, no empty actions row",
+   "ok": true,
+   "detail": "{\"btn\":true,\"time\":true,\"row\":true}"
+  },
+  {
+   "group": "Calendar",
+   "name": "No calendar file with an unconfirmed time is published",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "group": "Share",
+   "name": "Without Web Share API the link is copied + confirmation toast",
+   "ok": true,
+   "detail": "تم نسخ رابط الدعوة / https://hishamauda.github.io/darwish-basmala-wedding/"
+  },
+  {
+   "group": "Navigation",
+   "name": "Bottom nav scrolls to the venue",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Navigation",
+   "name": "Active nav item announced (aria-current)",
+   "ok": true,
+   "detail": "location"
+  },
+  {
+   "group": "Song",
+   "name": "Song playing after opening (real media state, button pressed)",
+   "ok": true,
+   "detail": "{\"n\":1,\"loop\":true,\"paused\":false,\"t\":6.373204,\"st\":\"playing\",\"pressed\":\"true\"}"
+  },
+  {
+   "group": "Song",
+   "name": "Exactly one audio element, loop enabled",
+   "ok": true,
+   "detail": "{\"n\":1,\"loop\":true,\"paused\":false,\"t\":6.373204,\"st\":\"playing\",\"pressed\":\"true\"}"
+  },
+  {
+   "group": "Song",
+   "name": "Pause stops the song and the button shows it",
+   "ok": true,
+   "detail": "{\"paused\":true,\"t\":6.408319,\"st\":\"paused\",\"pressed\":\"false\"}"
+  },
+  {
+   "group": "Song",
+   "name": "Resume continues from the same position",
+   "ok": true,
+   "detail": "6.41s → 7.70s"
+  },
+  {
+   "group": "Song",
+   "name": "Only one sound at a time",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Song",
+   "name": "MP3 served (audio/mpeg) and decodable",
+   "ok": true,
+   "detail": "200 audio/mpeg 6328370"
+  },
+  {
+   "group": "Console",
+   "name": "No console errors during functional run",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Share",
+   "name": "Web Share API used when available (title, text, url)",
+   "ok": true,
+   "detail": "{\"title\":\"درويش & بسملة — دعوة زفاف\",\"text\":\"يسعدنا دعوتكم لحفل زفاف درويش & بسملة — الجمعة 20 نوفمبر 2026، فندق الجزيرة | قاعة شمس.\",\"url\":\"https://hishamauda.github.io/darwish-basmala-wedding/\"}"
+  },
+  {
+   "group": "Song",
+   "name": "No sound before the guest interacts",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Song",
+   "name": "Blocked autoplay: invitation still opens",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Song",
+   "name": "Blocked autoplay: no false “playing”, guest is told to use the music button",
+   "ok": true,
+   "detail": "{\"state\":\"blocked\",\"pressed\":\"false\",\"toast\":\"لتشغيل أغنية الزفاف اضغطوا زر «موسيقى»\"}"
+  },
+  {
+   "group": "Song",
+   "name": "Blocked autoplay: no page errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Song",
+   "name": "Missing MP3: invitation works, no “playing” state, no crash",
+   "ok": true,
+   "detail": "{\"opened\":true,\"state\":\"error\",\"pressed\":\"false\"}"
+  },
+  {
+   "group": "Keyboard",
+   "name": "Invitation opens with the keyboard (Enter on focused button)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "Keyboard",
+   "name": "Tab reaches buttons, links and the bottom nav",
+   "ok": true,
+   "detail": "scroll-cue → home → venue → shareButton → musicButton → whatsappButton → BODY → skip-link → scroll-cue → home → venue → shareButton → musicButton → whatsappButton"
+  },
+  {
+   "group": "Keyboard",
+   "name": "Visible focus indicator",
+   "ok": true,
+   "detail": "solid"
+  },
+  {
+   "group": "Accessibility",
+   "name": "prefers-reduced-motion: instant open, no masking/parallax",
+   "ok": true,
+   "detail": "[true,\"none\"]"
+  },
+  {
+   "group": "Contrast",
+   "name": "Espresso text on Ivory",
+   "ok": true,
+   "detail": "14.05:1 (min 4.5)"
+  },
+  {
+   "group": "Contrast",
+   "name": "Soft text #5A4A3D on Pearl",
+   "ok": true,
+   "detail": "7.40:1 (min 4.5)"
+  },
+  {
+   "group": "Contrast",
+   "name": "Gold-ink #8A6A35 small text on Ivory",
+   "ok": true,
+   "detail": "4.72:1 (min 4.5)"
+  },
+  {
+   "group": "Contrast",
+   "name": "Gold-deep #6E5328 on Pearl",
+   "ok": true,
+   "detail": "6.26:1 (min 4.5)"
+  },
+  {
+   "group": "Contrast",
+   "name": "Antique gold #A88348 (large display only) on Ivory",
+   "ok": true,
+   "detail": "3.30:1 (min 3)"
+  },
+  {
+   "group": "Contrast",
+   "name": "Button text on gold-ink",
+   "ok": true,
+   "detail": "4.93:1 (min 4.5)"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+/* =====================================================================
+   A Royal Congratulations — INFINITI Technologies signature
+   Scoped to the new final section only (.infiniti-*). It re-uses the
+   existing tokens, fonts and components (.scene, .calm-panel, .divider,
+   .section-title, data-reveal); no existing rule or token is modified.
+   ===================================================================== */
+.infiniti-panel { gap: 10px; }
+.infiniti-opening { font-size: clamp(1.1rem, 4.2vw, 1.25rem); color: var(--color-gold-ink); }
+.infiniti-headline { margin: 0; }
+.infiniti-line { font-weight: 700; font-size: clamp(1.15rem, 4.5vw, 1.32rem); line-height: 1.8; color: var(--color-text); }
+.infiniti-prayer { max-width: 32ch; font-size: clamp(1.1rem, 4.2vw, 1.25rem); line-height: 2.05; color: var(--color-text-soft); }
+.infiniti-divider { margin: 6px auto 2px; }
+.infiniti-brand { display: flex; flex-direction: column; align-items: center; margin: 0;
+  font: 700 clamp(1.45rem, 6.2vw, 1.95rem)/1.3 var(--font-text); letter-spacing: 0.24em; padding-inline-start: 0.24em;
+  color: var(--color-gold-deep); }
+.infiniti-brand-sub { margin-top: 2px; font-weight: 400; font-size: 0.5em; letter-spacing: 0.5em; padding-inline-start: 0.5em;
+  color: var(--color-gold-ink); }
+.infiniti-engineer { display: flex; flex-direction: column; align-items: center; margin-top: 6px;
+  font-weight: 700; font-size: clamp(1.15rem, 4.6vw, 1.32rem); line-height: 1.7; color: var(--color-text); }
+.infiniti-kunya { font-weight: 400; font-size: 0.86em; color: var(--color-gold-ink); }

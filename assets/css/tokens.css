@@ -1,0 +1,90 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-ivory-0: #FFFEFB;
+  --primitive-color-ivory-10: #FFFDF8;
+  --primitive-color-ivory-50: #FAF8F4;
+  --primitive-color-pearl-100: #F4EFE8;
+  --primitive-color-pearl-150: #F2EBDF;
+  --primitive-color-pearl-200: #EDE5D8;
+  --primitive-color-pearl-300: #EEE5D7;
+  --primitive-color-pearl-400: #E3D8C6;
+  --primitive-color-gold-100: #FFF6DE;
+  --primitive-color-gold-300: #E9D7AE;
+  --primitive-color-gold-400: #C6A66B;
+  --primitive-color-gold-500: #A88348;
+  --primitive-color-gold-700: #8A6A35;
+  --primitive-color-gold-900: #6E5328;
+  --primitive-color-espresso-700: #5A4A3D;
+  --primitive-color-espresso-900: #30251E;
+  --primitive-color-white: #FFFFFF;
+  --primitive-font-names: 'Aref Ruqaa', 'Amiri', serif;
+  --primitive-font-text: 'Amiri', 'Times New Roman', serif;
+  --primitive-spacing-1: 0.25rem;
+  --primitive-spacing-2: 0.5rem;
+  --primitive-spacing-3: 0.75rem;
+  --primitive-spacing-4: 1rem;
+  --primitive-spacing-6: 1.5rem;
+  --primitive-spacing-8: 2rem;
+  --primitive-spacing-12: 3rem;
+  --primitive-spacing-16: 4rem;
+  --primitive-spacing-24: 6rem;
+  --primitive-radius-sm: 6px;
+  --primitive-radius-md: 14px;
+  --primitive-radius-lg: 24px;
+  --primitive-radius-pill: 999px;
+  --primitive-duration-fast: 180ms;
+  --primitive-duration-base: 320ms;
+  --primitive-duration-slow: 700ms;
+  --primitive-duration-cinematic: 1400ms;
+  --primitive-easing-out: cubic-bezier(.22,1,.36,1);
+  --primitive-easing-in-out: cubic-bezier(.65,0,.35,1);
+  --primitive-easing-in: cubic-bezier(.55,0,1,.45);
+}
+
+/* === SEMANTIC === */
+:root {
+  --color-bg: #FAF8F4;
+  --color-surface: #F4EFE8;
+  --color-surface-deep: #EDE5D8;
+  --color-text: #30251E;
+  --color-text-soft: #5A4A3D;
+  --color-gold-ornament: #C6A66B;
+  --color-gold-display: #A88348;
+  --color-gold-ink: #8A6A35;
+  --color-gold-deep: #6E5328;
+  --color-gold-light: #E9D7AE;
+  --color-focus: #8A6A35;
+  --color-paper-light: #FFFEFB;
+  --color-paper-soft: #FFFDF8;
+  --color-paper-edge: #EEE5D7;
+  --color-gold-glint: #FFF6DE;
+  --space-inline: 1rem;
+  --space-stack: 1.5rem;
+  --space-section: 6rem;
+  --motion-micro: 180ms;
+  --motion-ui: 320ms;
+  --motion-reveal: 700ms;
+  --motion-scene: 1400ms;
+  --motion-ease: cubic-bezier(.22,1,.36,1);
+}
+
+/* === COMPONENTS === */
+:root {
+  --button-height: 52px;
+  --button-radius: 999px;
+  --button-border: #A88348;
+  --button-text: #6E5328;
+  --nav-height: 64px;
+  --nav-radius: 24px;
+  --panel-radius: 14px;
+  --panel-bg: #F4EFE8;
+  --countdown-cell-size: clamp(68px, 19vw, 104px);
+  --countdown-radius: 14px;
+  --timeline-node-size: 14px;
+  --timeline-line: #C6A66B;
+  --envelope-back-start: #F2EBDF;
+  --envelope-back-end: #E3D8C6;
+}

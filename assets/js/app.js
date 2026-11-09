@@ -52,7 +52,8 @@
   // the «save to calendar» button and the time line are hidden — nothing is ever guessed.
   var HAS_TIME = !!(C.event.isoDate && C.event.startTime);
   var START = HAS_TIME ? zonedToUtc(C.event.isoDate, C.event.startTime, C.event.timeZone) : null;
-  var END = HAS_TIME ? zonedToUtc(C.event.isoDate, C.event.endTime || C.event.startTime, C.event.timeZone) : null;
+  var HAS_CALENDAR = HAS_TIME && !!C.event.endTime; // do not invent the ceremony end time
+  var END = HAS_CALENDAR ? zonedToUtc(C.event.isoDate, C.event.endTime, C.event.timeZone) : null;
   if (HAS_TIME) window.__WEDDING_START__ = START.toISOString();
 
   /* ------------------------------------------------ 3. links: maps & calendar */
@@ -62,7 +63,7 @@
   if (maps) { maps.hidden = !mapsHref; if (mapsHref) maps.href = mapsHref; }
   function gstamp(d) { return d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''); }
   var gcal = $('#gcalLink');
-  if (gcal && HAS_TIME) {
+  if (gcal && HAS_CALENDAR) {
     gcal.href = 'https://calendar.google.com/calendar/render?action=TEMPLATE' +
       '&text=' + encodeURIComponent('زفاف ' + C.couple.groom + ' ' + C.couple.joiner + ' ' + C.couple.bride) +
       '&dates=' + gstamp(START) + '/' + gstamp(END) +
@@ -71,11 +72,11 @@
       '&details=' + encodeURIComponent(C.texts.shareText + '\n' + C.site.url);
   }
   var calToggle = $('#calendarToggle'), calOpts = $('#calendarOptions');
-  if (calToggle) calToggle.hidden = !HAS_TIME;
-  if (calOpts && !HAS_TIME) calOpts.hidden = true;
+  if (calToggle) calToggle.hidden = !HAS_CALENDAR;
+  if (calOpts && !HAS_CALENDAR) calOpts.hidden = true;
   // the venue actions row disappears entirely when it has nothing to show (no empty gap)
   var venueActions = maps ? maps.parentElement : null;
-  if (venueActions) venueActions.hidden = !mapsHref && !HAS_TIME;
+  if (venueActions) venueActions.hidden = !mapsHref && !HAS_CALENDAR;
   // «· الساعة» after the date in the venue scene: only with a confirmed time
   $$('[data-text="event.timeLabel"]').forEach(function (el) {
     el.hidden = !C.event.timeLabel;

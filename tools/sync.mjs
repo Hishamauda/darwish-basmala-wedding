@@ -65,6 +65,7 @@ html = html.replace(/(<[a-z]+[^>]*\sdata-text="([a-zA-Z.]+)"[^>]*>)([^<]*)(<)/g,
 // ---- parts that stay hidden until their data is confirmed (app.js applies the same rules at run time)
 const slug = new URL(C.site.url).pathname.split('/').filter(Boolean).pop() || 'wedding';
 const hasTime = !!(C.event.isoDate && C.event.startTime);
+const hasCalendar = hasTime && !!C.event.endTime; // only publish a calendar event with a known end time
 const mapsHref = C.venue.mapsUrl || (C.venue.mapsQuery ? 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(C.venue.mapsQuery) : '');
 const hasProgram = !!(C.timeline && C.timeline.length);
 const hasEtiquette = !!C.texts.etiquetteText;
@@ -77,11 +78,11 @@ function setHidden(marker, hide) {      // add / remove the `hidden` attribute o
   html = html.slice(0, a) + tag + html.slice(b);
 }
 setHidden('id="countdown"', !hasTime);
-setHidden('id="calendarToggle"', !hasTime);
+setHidden('id="calendarToggle"', !hasCalendar);
 setHidden('data-text="event.timeLabel"', !C.event.timeLabel);
 setHidden('data-time-sep', !C.event.timeLabel);
 setHidden('id="mapsLink"', !mapsHref);
-setHidden('class="actions"', !mapsHref && !hasTime);
+setHidden('class="actions"', !mapsHref && !hasCalendar);
 setHidden('id="program"', !hasProgram);
 setHidden('data-nav="program"', !hasProgram);
 setHidden('id="etiquette"', !hasEtiquette);
@@ -93,9 +94,9 @@ fs.writeFileSync(htmlPath, html);
 
 // ---- calendar file: never with an unconfirmed time
 const icsPath = path.join(ROOT, 'assets/wedding.ics');
-if (!hasTime) {
+if (!hasCalendar) {
   if (fs.existsSync(icsPath)) fs.unlinkSync(icsPath);
-  console.log(`synced: ${n} text nodes, OG block; no ceremony time yet → countdown, calendar and wedding.ics left out` +
+  console.log(`synced: ${n} text nodes, OG block; no confirmed end time → calendar and wedding.ics left out (countdown uses confirmed start)` +
     `${hasProgram ? '' : ', programme hidden'}${mapsHref ? '' : ', map button hidden'}${hasEtiquette ? '' : ', etiquette hidden'}`);
   process.exit(0);
 }

@@ -32,6 +32,7 @@
   <link rel="preload" href="assets/fonts/Amiri-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/tokens.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/youth.css">
   <link rel="stylesheet" href="assets/css/infiniti.css">
   <link rel="stylesheet" href="assets/css/infiniti-page.css">
   <script>document.documentElement.classList.add('js');</script>
@@ -146,8 +147,8 @@
       <p class="venue-when" data-reveal>
         <span data-text="event.dayName">الجمعة</span>
         <bdi dir="ltr" class="num" data-text="event.dateNumeric">20-11-2026</bdi>
-        <span class="sep" data-time-sep aria-hidden="true" hidden>·</span>
-        <span data-text="event.timeLabel" hidden></span>
+        <span class="sep" data-time-sep aria-hidden="true">·</span>
+        <span data-text="event.timeLabel">4:00 مساءً</span>
       </p>
       <div class="actions" data-reveal hidden>
         <a class="btn btn-gold" id="mapsLink" href="#" target="_blank" rel="noopener" hidden>
@@ -165,8 +166,24 @@
       </div>
     </section>
 
+    <!-- ================= Youth celebration — Al Aqila festival ================= -->
+    <section class="scene scene-youth" id="youth" aria-labelledby="youthTitle">
+      <p class="eyebrow" data-reveal data-text="youth.title">حفل الشباب</p>
+      <div class="youth-panel" data-reveal>
+        <img class="divider" src="assets/img/divider.svg" alt="" width="320" height="40">
+        <h2 class="section-title youth-title" id="youthTitle" data-text="youth.festival">مهرجان آل عكيلة</h2>
+        <p class="youth-lead">يسعدنا أن تشاركونا فرحة الشباب في ليلةٍ تزداد بهجةً بحضوركم</p>
+        <div class="youth-details">
+          <p class="youth-date"><span data-text="youth.dayName">الأربعاء</span> <span class="sep" aria-hidden="true">|</span> <bdi dir="ltr" data-text="youth.dateNumeric">18-11-2026</bdi></p>
+          <p class="youth-place" data-text="youth.location">غزة – شارع عايدية</p>
+        </div>
+        <p class="youth-performer">يحيي الحفل <strong data-text="youth.artist">الفنان مصطفى زايد</strong></p>
+        <img class="divider youth-divider" src="assets/img/divider.svg" alt="" width="320" height="40">
+      </div>
+    </section>
+
     <!-- ================= Scene 05 — Luxury Countdown ================= -->
-    <section class="scene scene-countdown" id="countdown" aria-labelledby="cdTitle" hidden>
+    <section class="scene scene-countdown" id="countdown" aria-labelledby="cdTitle">
       <p class="eyebrow" data-reveal>العدّ التنازلي</p>
       <h2 class="section-title" id="cdTitle" data-reveal>حتى ليلة الفرح</h2>
       <div class="countdown" id="countdownGrid" role="timer" aria-live="off" data-reveal>
@@ -175,13 +192,13 @@
         <div class="cd-cell"><span class="cd-num" id="cdMinutes">--</span><span class="cd-label">دقيقة</span></div>
         <div class="cd-cell"><span class="cd-num" id="cdSeconds">--</span><span class="cd-label">ثانية</span></div>
       </div>
-      <p class="countdown-note" id="countdownNote" data-reveal></p>
+      <p class="countdown-note" id="countdownNote" data-reveal>الجمعة 20 نوفمبر 2026 — الساعة 4:00 مساءً بتوقيت غزة</p>
       <p class="countdown-done" id="countdownDone" hidden data-text="texts.countdownDone">حان موعد الفرح... أهلاً بكم في ليلتنا.</p>
       <p class="visually-hidden" id="countdownSummary" aria-live="polite"></p>
     </section>
 
     <!-- ================= Scene 06 — Wedding Timeline ================= -->
-    <section class="scene scene-program" id="program" aria-labelledby="programTitle" hidden>
+    <section class="scene scene-program" id="program" aria-labelledby="programTitle">
       <p class="eyebrow" data-reveal>برنامج الحفل</p>
       <h2 class="section-title" id="programTitle" data-reveal>تفاصيل ليلتنا</h2>
       <ol class="timeline" id="timeline">
@@ -247,7 +264,7 @@
     <a class="dock-item" href="#venue" data-nav="venue" aria-label="موقع القاعة">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/></svg>
       <span>القاعة</span></a>
-    <a class="dock-item" href="#program" data-nav="program" aria-label="برنامج الحفل" hidden>
+    <a class="dock-item" href="#program" data-nav="program" aria-label="برنامج الحفل">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
       <span>البرنامج</span></a>
     <button class="dock-item" id="shareButton" type="button" aria-label="مشاركة الدعوة">

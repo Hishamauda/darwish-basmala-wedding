@@ -293,16 +293,11 @@ html.js [data-reveal="prayer"].is-visible { animation: write 3200ms var(--ease-i
 .final-line { font-size: clamp(1.18rem, 4.7vw, 1.45rem); line-height: 2; max-width: 26ch; }
 .finale-mark { position: relative; margin-top: clamp(26px, 5vh, 44px); padding: clamp(40px, 9vw, 60px) clamp(28px, 8vw, 60px);
   display: flex; flex-direction: column; align-items: center; }
-.finale-ring { position: absolute; inset: 0; margin: auto; width: min(86vw, 380px); aspect-ratio: 1; border-radius: 50%;
+/* Center the ring on the finale names, regardless of RTL direction or viewport width. */
+.finale-ring { position: absolute; top: 50%; left: 50%; right: auto; bottom: auto; margin: 0; width: min(86vw, 380px); aspect-ratio: 1; border-radius: 50%;
   border: 1px solid rgb(198 166 107 / 0.55); box-shadow: inset 0 0 0 6px rgb(255 254 251 / 0.6), inset 0 0 0 7px rgb(198 166 107 / 0.25), 0 0 60px rgb(233 215 174 / 0.35);
-  transform: scale(0.7); opacity: 0; transition: transform 1800ms var(--ease), opacity 1800ms var(--ease); pointer-events: none; }
-.finale-mark.is-visible .finale-ring { transform: scale(1); opacity: 1; }
-/* Phones: the ring is wider than .finale-mark, so (RTL) its auto margins pin it to the mark's right
-   edge and it spills off the left of the screen. Centre it on the mark's centre instead. */
-@media (max-width: 599px) {
-  .finale-ring { top: 50%; left: 50%; right: auto; bottom: auto; margin: 0; transform: translate(-50%, -50%) scale(0.7); }
-  .finale-mark.is-visible .finale-ring { transform: translate(-50%, -50%) scale(1); }
-}
+  transform: translate(-50%, -50%) scale(0.7); opacity: 0; transition: transform 1800ms var(--ease), opacity 1800ms var(--ease); pointer-events: none; }
+.finale-mark.is-visible .finale-ring { transform: translate(-50%, -50%) scale(1); opacity: 1; }
 .final-await { position: relative; font: 700 clamp(1.25rem, 5vw, 1.55rem)/1.6 var(--font-text); color: var(--color-gold-ink); }
 .final-names { position: relative; font: 700 clamp(2.6rem, 12vw, 4.4rem)/1.35 var(--font-names); padding: 0 0.12em;
   display: flex; flex-direction: column; align-items: center;

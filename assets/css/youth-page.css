@@ -1,0 +1,46 @@
+/* Al Aqila youth festival popup — isolated. Only nav spacing is modified to fit seven buttons. */
+.dock:has(#youthButton) { gap: 1px; }
+.dock:has(#youthButton) .dock-item { min-width: 44px; font-size: clamp(.68rem, 2.3vw, .8rem); }
+@media (max-width: 350px) {
+  .dock:has(#youthButton) { width: calc(100% - 8px); padding-inline: 4px; gap: 0; }
+  .dock:has(#youthButton) .dock-item { min-width: 0; font-size: .68rem; }
+  .dock:has(#youthButton) .dock-item svg { width: 20px; height: 20px; }
+}
+.youth-page[hidden] { display: none !important; }
+.youth-page { position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center;
+  overflow-y: auto; overscroll-behavior: contain;
+  padding: calc(20px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) calc(20px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  background: rgb(28 24 19 / .63); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  opacity: 0; transition: opacity 360ms var(--ease); }
+.youth-page.is-open { opacity: 1; }
+.youth-dialog { position: relative; flex: 0 1 530px; max-height: calc(100dvh - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
+  padding: clamp(21px, 5vw, 38px); padding-top: clamp(22px, 5vw, 40px);
+  background: linear-gradient(155deg, var(--color-paper-light), var(--color-bg) 66%, var(--color-surface));
+  border: 1px solid var(--color-gold-ornament); border-radius: 23px;
+  box-shadow: 0 32px 75px rgb(0 0 0 / .24);
+  display: flex; align-items: center; flex-direction: column; text-align: center; gap: clamp(8px, 2vh, 16px);
+  transform: translateY(20px) scale(.985); transition: transform 420ms var(--ease); }
+.youth-page.is-open .youth-dialog { transform: none; }
+.youth-dialog::after { content: ""; position: absolute; inset: 8px; border: 1px solid rgb(198 166 107 / .23); border-radius: 16px; pointer-events: none; }
+.youth-close { align-self: flex-start; display: inline-flex; align-items: center; gap: 7px;
+  min-height: 44px; padding: 0 13px; z-index: 1; border-radius: 999px;
+  border: 1px solid rgb(198 166 107 / .42); background: transparent; color: var(--color-gold-deep);
+  font: 700 1rem/1.2 var(--font-text); cursor: pointer; }
+.youth-close svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.youth-close:hover { background: rgb(198 166 107 / .12); }
+.youth-orn { width: min(72%, 220px); height: auto; }
+.youth-orn-last { margin-top: 6px; }
+.youth-eyebrow { color: var(--color-gold-ink); font: 700 1.12rem/1.5 var(--font-text); }
+.youth-heading { color: var(--color-gold-deep); margin: 0; font: 700 clamp(2rem, 8vw, 3rem)/1.5 var(--font-names); }
+.youth-invite { color: var(--color-text-soft); max-width: 28ch; font-size: clamp(1.04rem, 4vw, 1.18rem); line-height: 1.85; }
+.youth-rule { width: min(74%, 290px); height: 1px; background: linear-gradient(90deg, transparent, var(--color-gold-ornament), transparent); margin: 1px 0; }
+.youth-date { color: var(--color-gold-deep); font: 700 clamp(1.15rem, 4.5vw, 1.35rem)/1.6 var(--font-text); }
+.youth-date bdi { margin-inline: .3em; }
+.youth-place { color: var(--color-text); font-size: clamp(1.12rem, 4.2vw, 1.3rem); }
+.youth-artist-label { color: var(--color-text-soft); }
+.youth-artist { color: var(--color-gold-ink); font: 700 clamp(1.55rem, 6vw, 2.05rem)/1.5 var(--font-names); }
+.youth-page :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .youth-page, .youth-dialog { transition: none !important; transform: none !important; }
+}
